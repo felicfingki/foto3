@@ -1,5 +1,6 @@
 <p>Felic Cahyadi</p>
 <h2>C14180194</h2>
+<<<<<<< HEAD
 <h4>Buah</h4>
 <h5>Buah2</h5>
 <h3>Date </h3>
@@ -19,3 +20,7 @@
             document.getElementById("hasilhitung").innerHTML = " Hasil Perhitungan : " + result;
         }
 </script>
+=======
+<h4>PPM</h4>
+<h2>Membuat Aplikasi Informasi tentang Covid</h2>
+>>>>>>> C14180194-C
