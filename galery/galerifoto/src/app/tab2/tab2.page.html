@@ -7,8 +7,17 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
+
+  <ion-input type="text" [(ngModel)]="tebakan" placeholder="1-5" ></ion-input>
+  <ion-button (click)="CekAngka()">Cek Angka</ion-button>
+
+  <div *ngIf ="kondisi==true">
   <h2>About Me</h2>
   <h4>Nama : Felic Cahyadi</h4>
   <h4>Jurusan : Teknik Informatika</h4>
   <h5>Hobi : Belajar</h5>
+  </div>
+  <div *ngIf="kondisi==false">
+    <h1>SALAH!</h1>
+  </div>
 </ion-content>

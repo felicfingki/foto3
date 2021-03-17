@@ -7,6 +7,23 @@ import { Component } from '@angular/core';
 })
 export class Tab2Page {
 
+  tebakan : number;
+  angkarandom : number;
+  kondisi : boolean =  false;
   constructor() {}
-
+  ngOnInit()
+  {
+    this.angkarandom = Math.floor(Math.random() * (5 - 1) + 1);
+  }
+  CekAngka()
+  {
+    if(this.tebakan==this.angkarandom)
+    {
+      this.kondisi=true;
+    }
+    else
+    {
+      this.kondisi=false;
+    }
+  }
 }
